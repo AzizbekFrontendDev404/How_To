@@ -34,7 +34,8 @@ body {
 .horizontal-bar__link {
   width: 20%;
 }
-.vertical-bar__link:hover:not(.active) {
+.vertical-bar__link:hover:not(.active),
+.horizontal-bar__link:hover:not(.active) {
   background-color: #000;
 }
 .active {
